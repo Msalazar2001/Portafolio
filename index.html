@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Matthew Salazar — Web Design Portfolio</title>
+
+  <!-- Tipografía (puedes cambiarla por la que uses) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER tipo IDE -->
+<header class="ide-header">
+  <!-- Barra superior tipo ventana -->
+  <div class="window-bar">
+    <div class="window-buttons">
+      <span class="red"></span>
+      <span class="yellow"></span>
+      <span class="green"></span>
+    </div>
+    <div class="window-title">matthew-salazar-portfolio</div>
+    <div class="window-icons">
+      <span>◐</span>
+      <span>□</span>
+      <span>✕</span>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <nav class="ide-tabs">
+    <div class="tab">
+      📄 <a href="index.html">index.tsx</a>
+    </div>
+    <div class="tab">
+      📄 <a href="aboutme.html">about.tsx</a>
+    </div>
+    <div class="tab">
+      📁 <a href="proyects.html">portfolio/</a>
+    </div>
+    <div class="tab">
+      ⚡ <a href="experience.html">experience.tsx</a>
+    </div>
+    <div class="tab">
+      ✉️ <a href="contact.html">contact.tsx</a>
+    </div>
+    <div class="flex-space"></div>
+    <div class="breadcrumb">~/portfolio/src/pages/</div>
+  </nav>
+</header>
+
+
+
+  <!-- HERO -->
+ <header class="hero" id="home">
+
+  <!-- Fondo LetterGlitch -->
+  <div id="letter-glitch" class="glitch-background"></div>
+
+  <!-- Contenido normal del hero -->
+  <div class="container hero-content">
+    <h1>Matthew Salazar</h1>
+    <p style="color: #258DFA;" class="subtitle">Designer &amp; Developer — UX/UI, Web &amp; Games</p>
+
+    <nav class="social" aria-label="Enlaces sociales">
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:hello@tudominio.com">Email</a>
+    </nav>
+
+    <a class="cta" href="#proyectos" aria-label="Ver mis proyectos">
+      Conecta conmigo <span class="chevrons">—</span>
+    </a>
+  </div>
+
+</header>
+
+<!-- Script de la animación -->
+<script src="letterGlitch.js"></script>
+
+
+<!-- FOOTER tipo terminal -->
+ 
+<footer class="terminal-footer">
+    <!-- STATUS BAR tipo editor -->
+<div class="editor-status">
+  <div class="status-inner">
+    <div class="status-left">
+      <span class="status-dot"></span>
+      <span>Ready</span>
+    </div>
+    <div class="status-center">
+      <span>TypeScript</span>
+      <span>React</span>
+      <span>UTF-8</span>
+      <span>LF</span>
+    </div>
+    <div class="status-right">
+      <span>🔥 Live</span>
+    </div>
+  </div>
+</div>
+  <div class="terminal-topbar">
+    <div class="term-tabs">
+      <button class="term-tab">TERMINAL</button>
+      <button class="term-tab active">PROBLEMS</button>
+      <button class="term-tab">OUTPUT</button>
+      <button class="term-tab">DEBUG CONSOLE</button>
+    </div>
+  </div>
+
+  <div class="terminal-container">
+    <p class="command">$ npm run dev</p>
+    <p><span class="user">matthew@portfolio:</span><span class="symbol">~$</span> Portfolio built successfully</p>
+    <p class="copy">© 2025 Matthew Salazar. All rights reserved</p>
+    <div class="terminal-links">
+      <a href="https://github.com/" target="_blank">./github.sh</a>
+      <a href="https://linkedin.com/" target="_blank">./linkedin.sh</a>
+      <a href="https://instagram.com/" target="_blank">./instagram.sh</a>
+      <a href="https://tiktok.com/" target="_blank">./tiktok.sh</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

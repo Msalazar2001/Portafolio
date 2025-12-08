@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Matthew Salazar — Portfolio</title>
+
+  <!-- Tipografía (puedes cambiarla por la que uses) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER tipo IDE -->
+<header class="ide-header">
+  <!-- Barra superior tipo ventana -->
+  <div class="window-bar">
+    <div class="window-buttons">
+      <span class="red"></span>
+      <span class="yellow"></span>
+      <span class="green"></span>
+    </div>
+    <div class="window-title">matthew-salazar-portfolio</div>
+    <div class="window-icons">
+      <span>◐</span>
+      <span>□</span>
+      <span>✕</span>
+    </div>
+  </div>
+
+  <!-- Tabs -->
+  <nav class="ide-tabs">
+    <div class="tab">
+      📄 <a href="index.html">index.tsx</a>
+    </div>
+    <div class="tab">
+      📄 <a href="aboutme.html">about.tsx</a>
+    </div>
+    <div class="tab">
+      📁 <a href="proyects.html">portfolio/</a>
+    </div>
+    <div class="tab">
+      ⚡ <a href="experience.html">experience.tsx</a>
+    </div>
+    <div class="tab">
+      ✉️ <a href="contact.html">contact.tsx</a>
+    </div>
+    <div class="flex-space"></div>
+    <div class="breadcrumb">~/portfolio/src/pages/</div>
+  </nav>
+</header>
+
+
+
+
+<main class="contact-page">
+  <!-- Terminal Header -->
+  <section class="contact-init">
+    <h1><span class="command-symbol">$</span> contact --init</h1>
+    <p style="color: #258DFA;" class="subtext">// Establishing connection with Matthew Salazar...</p>
+  </section>
+
+  <!-- Contact.js Simulation -->
+  <section class="code-block">
+    <div class="code-header">
+      <span class="circle red"></span>
+      <span class="circle yellow"></span>
+      <span class="circle green"></span>
+      <p>contact.js</p>
+      <span class="path">~/matthew-portfolio/</span>
+    </div>
+
+    <!-- Part 1: code header (opens methods array) -->
+    <pre class="code">
+<span class="comment">// Contact configuration object</span>
+const contact = {
+  "developer": "Matthew Salazar",
+  "role": "Designer & Developer",
+  "status": "available",
+  "location": "Quito, Ecuador",
+  "methods": [
+    </pre>
+
+    <!-- Part 2: visual methods as cards (2 x 2) -->
+    <div class="contact-methods">
+
+      <!-- Email -->
+      <div class="method-box">
+        <p><span class="key">"type"</span>: <span class="str">"email"</span></p>
+        <p><span class="key">"address"</span>: <span class="str">"matthew.salazar.dev@gmail.com"</span></p>
+        <p><span class="key">"response_time"</span>: <span class="str">&lt; 24h</span></p>
+        <a href="mailto:matthew.salazar.dev@gmail.com" class="btn-icon mail" aria-label="Send Email">✉️</a>
+        <p class="method-call">&gt; execute_email()</p>
+      </div>
+
+      <!-- LinkedIn -->
+      <div class="method-box">
+        <p><span class="key">"type"</span>: <span class="str">"linkedin"</span></p>
+        <p><span class="key">"network"</span>: <span class="str">"business"</span></p>
+        <p><span class="key">"verified"</span>: <span class="bool">true</span></p>
+        <a href="https://linkedin.com/in/matthew-salazar" target="_blank" class="btn-icon li" aria-label="Connect on LinkedIn">in</a>
+        <p class="method-call">&gt; connect_linkedin()</p>
+      </div>
+
+      <!-- GitHub -->
+      <div class="method-box">
+        <p><span class="key">"type"</span>: <span class="str">"github"</span></p>
+        <p><span class="key">"repos"</span>: <span class="str">"10+"</span></p>
+        <p><span class="key">"code"</span>: <span class="str">"open_source"</span> &nbsp; <span class="key">"active"</span>: <span class="bool">true</span></p>
+        <a href="#" target="_blank" class="btn-icon gh" aria-label="Browse GitHub">🐙</a>
+        <p class="method-call">&gt; browse_repos()</p>
+      </div>
+
+
+    </div>
+
+    <!-- Part 3: code footer (closes array and object) -->
+    <pre class="code">
+  ]
+}
+    </pre>
+
+    
+  </section>
+
+  <!-- Output Log Simulation -->
+  <section class="output-log">
+    <div class="code-header">
+      <span class="circle red"></span>
+      <span class="circle yellow"></span>
+      <span class="circle green"></span>
+      <p>output.log</p>
+      <span class="path">~/terminal/</span>
+    </div>
+
+    <pre class="code">
+$ node contact.js
+✓ Contact methods initialized successfully
+⚡ All communication channels are active
+
+📧 Email: Ready for incoming messages
+💼 LinkedIn: Professional network online
+🐙 GitHub: Repositories accessible
+
+Ready to collaborate! Choose your preferred method:
+
+&gt; sendEmail()
+&gt; connectLinkedIn()
+
+// Response time: Usually within 24 hours
+// Status: Available for new projects
+    </pre>
+  </section>
+</main>
+
+<!-- FOOTER tipo terminal -->
+<footer class="terminal-footer">
+    <!-- STATUS BAR tipo editor -->
+<div class="editor-status">
+  <div class="status-inner">
+    <div class="status-left">
+      <span class="status-dot"></span>
+      <span>Ready</span>
+    </div>
+    <div class="status-center">
+      <span>TypeScript</span>
+      <span>React</span>
+      <span>UTF-8</span>
+      <span>LF</span>
+    </div>
+    <div class="status-right">
+      <span>🔥 Live</span>
+    </div>
+  </div>
+</div>
+  <div class="terminal-topbar">
+    <div class="term-tabs">
+      <button class="term-tab">TERMINAL</button>
+      <button class="term-tab active">PROBLEMS</button>
+      <button class="term-tab">OUTPUT</button>
+      <button class="term-tab">DEBUG CONSOLE</button>
+    </div>
+  </div>
+
+  <div class="terminal-container">
+    <p class="command">$ npm run dev</p>
+    <p><span class="user">matthew@portfolio:</span><span class="symbol">~$</span> Portfolio built successfully</p>
+    <p class="copy">© 2025 Matthew Salazar. All rights reserved</p>
+    <div class="terminal-links">
+      <a href="https://github.com/" target="_blank">./github.sh</a>
+      <a href="https://linkedin.com/" target="_blank">./linkedin.sh</a>
+      <a href="https://instagram.com/" target="_blank">./instagram.sh</a>
+      <a href="https://tiktok.com/" target="_blank">./tiktok.sh</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
